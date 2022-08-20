@@ -49,7 +49,7 @@ import { AvatarGroup } from "@material-ui/lab";
               <img src="assets/img/work-6.jpg" alt="Blessy"/>
             </ImageListItem>
             <ImageListItem >
-              <img src="assets/img/work-2.jpg" alt="Blessy"/>
+              <img src="assets/img/work-2.JPG" alt="Blessy"/>
             </ImageListItem>
               <ImageListItem >
               <img src="assets/img/work-4.jpg" alt="Blessy"/>
@@ -61,7 +61,7 @@ import { AvatarGroup } from "@material-ui/lab";
               <img src="assets/img/work-5.jpg" alt="Blessy"/>
             </ImageListItem>
             <ImageListItem >
-              <img src="assets/img/post.jpg" alt="Blessy"/>
+              <img src="assets/img/post.JPG" alt="Blessy"/>
             </ImageListItem>
           
          </ImageList>
