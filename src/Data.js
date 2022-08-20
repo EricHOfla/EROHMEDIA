@@ -60,7 +60,7 @@ export const Posts = [
     {
     id:1,
     desc: "Be Hamble.",
-    photo: "assets/img/work-2.jpg",
+    photo: "assets/img/work-2.JPG",
     date: "5 mins ago",
     userId: 1,
     like: 105,
