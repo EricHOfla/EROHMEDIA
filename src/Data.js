@@ -60,7 +60,7 @@ export const Posts = [
     {
     id:1,
     desc: "Be Hamble.",
-    photo: "assets/img/work-2.JPG",
+    photo: "assets/img/work-2.jpg",
     date: "5 mins ago",
     userId: 1,
     like: 105,
@@ -70,7 +70,7 @@ export const Posts = [
     {
       id:2,
       desc: "I Love You All.",
-      photo: "assets/img/work-6.JPG",
+      photo: "assets/img/work-6.jpg",
       date: "5 hours ago",
       userId: 2,
       like: 701,
@@ -88,7 +88,7 @@ export const Posts = [
         {
           id:4,
           desc: "Be who you are.",
-          photo: "assets/img/friend1.JPG",
+          photo: "assets/img/friend1.jpg",
           date: "10 days ago",
           userId: 4,
           like: 905,
@@ -97,7 +97,7 @@ export const Posts = [
           {
             id:5,
             desc: "Hey! it 's your Girl.",
-            photo: "assets/img/work-7.JPG",
+            photo: "assets/img/work-7.jpg",
             date: "1 week ago",
             userId: 5,
             like: 405,
@@ -106,7 +106,7 @@ export const Posts = [
             {
               id:6,
               desc: "Love For All.",
-              photo: "assets/img/work-4.JPG",
+              photo: "assets/img/work-4.jpg",
               date: "2 weeks ago",
               userId: 6,
               like: 605,
@@ -115,7 +115,7 @@ export const Posts = [
               {
                 id:7,
                 desc: "Just Smile.",
-                photo: "assets/img/work-5pro1.JPG",
+                photo: "assets/img/work-5pro1.jpg",
                 date: "6 weeks ago",
                 userId: 7,
                 like: 1201,
