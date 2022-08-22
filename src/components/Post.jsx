@@ -1,5 +1,10 @@
 import { 
-  Button, Card, CardActionArea, CardActions, CardContent, CardMedia, makeStyles, Typography, } from "@material-ui/core";
+  Avatar,
+  Box,
+Card, CardActionArea, CardActions, CardContent, CardHeader, CardMedia, IconButton, makeStyles, Typography, } from "@material-ui/core";
+import { MoreVert, ThumbUp, ThumbDown, Share, Comment  } from "@material-ui/icons";
+
+import { Users } from "../Data";
  
 
 
@@ -15,20 +20,70 @@ import {
         height: 250,
       }
     },
+    headerTitle: {
+      display: "flex",
+     
+      
+    },
+    dates: {
+      marginLeft: theme.spacing(4),
+      fontSize: 13,
+    },
+    iconshare:{
+      margin: theme.spacing(2),
+      display: "flex",
+    },
+    descc: {
+      marginLeft: theme.spacing(2),
+    },
+    share: {
+       display: "flex",
+      
+    },
+    comment:{
+     marginLeft: 470,
+     [theme.breakpoints.down("sm")]: {
+      marginLeft: 55,
+     },
+    },
   
  }));
 
  const Post = ({ post }) => {
    const classes = userStyles();
 
-    return <Card className={classes.card}>
+    return (
+      <>
+    <Box boxShadow={3}>
+    <Card className={classes.root}>
+ <CardHeader className={classes.cardheader}
+ 
+   avatar={ 
+     <Avatar alt="no profile" src={Users.filter((u) => u.id === post.userId)[0].proflePicture}>            
+     </Avatar>
+   }  
+   action={
+     
+      <IconButton aria-label="settings">
+       <MoreVert />
+     </IconButton>
+   }
+
+    title={
+        <div className={classes.headerTitle}>
+      <Typography className={classes.names}> {Users.filter((u) => u.id === post.userId)[0].username}</Typography>
+      <Typography className={classes.dates}>  {post.date}</Typography>
+     
+   </div>} 
+ />
         <CardActionArea>
+       <div className={classes.descc}> <Typography >{post?.desc}</Typography></div>
             <CardMedia className={classes.media}
             image={post?.photo}
             title= "My post"
             />
             <CardContent>
-              <Typography gutterBottom variant="h6">{post?.desc}</Typography>
+              
               <Typography variant="body2">
                
               Banyamulenge make fresh call for justice over
@@ -48,11 +103,22 @@ import {
                 </Typography>
             </CardContent>
         </CardActionArea>
-         <CardActions>
-            <Button size="small" color="primary">Share</Button>
-            <Button size="small" color="primary">Learn More</Button>
+         <CardActions className={classes.share}>
+
+         <div className={classes.iconshare}><ThumbUp />
+
+            <Typography>12</Typography></div>
+            <div className={classes.iconshare}> <ThumbDown />  
+
+           <Typography>12</Typography></div>
+          
+           <Share />
+         <div className={classes.iconshare}> <Comment className={classes.comment} />  <Typography>12</Typography></div>
+       
          </CardActions>
     </Card>
+    </Box>
+    </>);
 };
 
 export default Post;
