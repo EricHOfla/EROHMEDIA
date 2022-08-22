@@ -57,7 +57,7 @@ import { Users } from "../Data";
 
     return (
       <>
-    <Box boxShadow={3}>
+    <Box boxShadow={3} className={classes.card}>
     <Card className={classes.root}>
  <CardHeader className={classes.cardheader}
  
