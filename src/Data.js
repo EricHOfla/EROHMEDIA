@@ -49,7 +49,7 @@ export const Users = [
             {
             id:7,
             proflePicture: "assets/img/work-5pro.jpg",
-            username: "Iteka Kelly Destine",
+            username: "I Kelly Destine",
           
             },
       

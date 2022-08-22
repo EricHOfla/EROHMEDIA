@@ -25,12 +25,20 @@ import { Users } from "../Data";
       [theme.breakpoints.down("sm")]: {
         width: 190,
       },
-     
-      
+   
+    },
+    name: {
+      [theme.breakpoints.down("sm")]: {
+        fontSize: 10,
+      },
     },
     dates: {
       marginLeft: theme.spacing(4),
       fontSize: 13,
+      [theme.breakpoints.down("sm")]: {
+       fontSize: 9,
+       marginLeft: theme.spacing(1),
+      },
     },
     iconshare:{
       margin: theme.spacing(2),
