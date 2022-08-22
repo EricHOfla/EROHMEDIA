@@ -22,6 +22,9 @@ import { Users } from "../Data";
     },
     headerTitle: {
       display: "flex",
+      [theme.breakpoints.down("sm")]: {
+        width: 190,
+      },
      
       
     },
