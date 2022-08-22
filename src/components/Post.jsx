@@ -86,8 +86,7 @@ import { Users } from "../Data";
               
               <Typography variant="body2">
                
-              Banyamulenge make fresh call for justice over
-                Gatumba massacre
+            
                 Sunday, August 14, 2022
                 The New Times
                 Driving instructor arrested for sitting an exam for three people
@@ -95,7 +94,7 @@ import { Users } from "../Data";
                 Gatumba massacre
                 Sunday, August 14, 2022
                 The New Times
-                Driving instructor arrested for sitting an exam for three people Banyamulenge make fresh call for justice over
+                Driving instructor arrested for sitting an exam for three people 
                 Gatumba massacre
                 Sunday, August 14, 2022
                 The New Times
