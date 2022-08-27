@@ -29,7 +29,8 @@ import { Users } from "../Data";
     },
     name: {
       [theme.breakpoints.down("sm")]: {
-        fontSize: 10,
+        fontSize: 9,
+        marginRight: theme.spacing(1),
       },
     },
     dates: {

@@ -32,6 +32,10 @@ const useStyles= makeStyles( (theme) => ({
             fontSize:"12px",
             marginLeft:"20px", 
            }, 
+        [theme.breakpoints.down("md")]:{
+            fontSize:"12px",
+            marginLeft:"20px", 
+           }, 
         },
 
 }));
